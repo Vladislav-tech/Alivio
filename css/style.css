@@ -67,7 +67,7 @@ button {
 
 body {
     font-family: 'Lato', sans-serif;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* header start */
@@ -182,6 +182,7 @@ body {
     background-size: cover;
     height: 895px;
     padding-top: 175px;
+    overflow: hidden;
 }
 
 .headline {
@@ -751,6 +752,10 @@ body {
 }
 
 @media (max-width: 540px) {
+    .headline {
+        width: 320px;
+    }
+
     .intro__subtitle {
         width: 320px;
     }
@@ -766,6 +771,11 @@ body {
 }
 
 @media (max-width: 450px) {
+    .card__img {
+        width: 350px;
+    }
+
+
     .video {
         width: 380px;
         height: 195px;
@@ -773,6 +783,14 @@ body {
 }
 
 @media (max-width: 340px) {
+    .headline {
+        width: 290px;
+    }
+
+    .card__img {
+        width: 290px;
+    }
+
     .intro__subtitle {
         width: 290px;
     }
